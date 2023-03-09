@@ -1,3 +1,21 @@
-header{background-color: rgb(178, 250, 149);
-color: rgb(87, 16, 16);}
-.cabecalhio-imagem{width: 30%;}
+*{
+    margin: 20;
+    padding: 20;
+}
+.cabecalho {background-color: rgb(219, 53, 53);
+color: rgb(243, 243, 243);
+display: flex;
+justify-content: space-evenly;
+padding: 25px 0;}
+.cabecalho-imagem{width: 13%;}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 50px;
+padding: 65px 0;
+font-size: 24px ;}
+h1
+ {display: inline-block;
+margin: 0 16px;
+padding: 100px 0;
+font-size: 40px; }
+    
