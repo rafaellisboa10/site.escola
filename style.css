@@ -13,9 +13,33 @@ padding: 25px 0;}
     margin: 0 50px;
 padding: 65px 0;
 font-size: 24px ;}
+
 h1
  {display: inline-block;
 margin: 0 16px;
 padding: 100px 0;
 font-size: 40px; }
-    
+h2
+{
+    display: inline-block;
+    font-size: 40px;
+}
+p
+{
+    margin: 7px 30px;
+    padding: 4px 20px;
+    font-size: 20px ;
+    text-indent: 20px;
+}
+.escola-imagem{width: 20%;}
+.escola{
+    background-image: linear-gradient(rgb(230, 61, 61), rgb(243, 151, 151));
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+align-items: center;
+
+}
+
