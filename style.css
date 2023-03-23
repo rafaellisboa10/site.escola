@@ -2,44 +2,58 @@
     margin: 20;
     padding: 20;
 }
-.cabecalho {background-color: rgb(219, 53, 53);
-color: rgb(243, 243, 243);
+.cabecalho {background-color: rgb(51, 51, 51);
+color: rgb(255, 255, 255);
 display: flex;
 justify-content: space-evenly;
 padding: 25px 0;}
-.cabecalho-imagem{width: 13%;}
+.cabecalho-imagem
+{width: 13%;
+    height: 13%;
+}
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 50px;
-padding: 65px 0;
+    margin: 0 20px;
+padding: 50px 0;
 font-size: 24px ;}
 
 h1
  {display: inline-block;
 margin: 0 16px;
 padding: 100px 0;
-font-size: 40px; }
+font-size: 50px; }
 h2
 {
     display: inline-block;
-    font-size: 40px;
+    font-size: 25px;
 }
 p
 {
     margin: 7px 30px;
-    padding: 4px 20px;
+    padding: 4px 25px;
     font-size: 20px ;
     text-indent: 20px;
+    color: rgb(0, 0, 0);
 }
 .escola-imagem{width: 20%;}
 .escola{
-    background-image: linear-gradient(rgb(230, 61, 61), rgb(243, 151, 151));
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(224, 224, 224), rgb(216, 216, 216));
+    color: rgb(0, 0, 0);
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 25px 0;
 align-items: center;
 
 }
+.escola-conteudo
+{width: 80%;
+}
+.escola-titulo{
+padding: 50px 30px; }
+
+.aluno-um {
+width: 10%;
+}
+
 
