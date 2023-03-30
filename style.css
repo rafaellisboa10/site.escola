@@ -52,8 +52,26 @@ align-items: center;
 .escola-titulo{
 padding: 50px 30px; }
 
+
 .aluno-um {
-width: 10%;
+width: 25%;
+}
+.estudante-icone{
+    width: 3%;
+    height: 4%;
+}
+.estudante-div{
+    text-align: center;
 }
 
 
+.aluno-dois {
+    width: 25%;
+    }
+    .estudante-icone{
+        width: 3%;
+        height: 4%;
+    }
+    .estudante-div2{
+        text-align: center;
+    }
