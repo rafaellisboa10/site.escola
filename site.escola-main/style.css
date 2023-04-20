@@ -1,0 +1,91 @@
+*{
+    margin: 20;
+    padding: 20;
+}
+.cabecalho {background-color: rgb(51, 51, 51);
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-evenly;
+padding: 25px 0;}
+.cabecalho-imagem
+{width: 13%;
+    height: 13%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 20px;
+padding: 50px 0;
+font-size: 24px ;}
+
+h1
+ {display: inline-block;
+margin: 0 16px;
+padding: 100px 0;
+font-size: 50px; }
+h2
+{
+    display: inline-block;
+    font-size: 25px;
+}
+p
+{
+    margin: 7px 30px;
+    padding: px 25px;
+    font-size: 20px ;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.escola-imagem{width: 20%;}
+.escola{
+    background-image: linear-gradient(rgb(224, 224, 224), rgb(216, 216, 216));
+    color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+align-items: center;
+
+}
+.escola-conteudo
+{width: 80%;
+}
+.escola-titulo{
+padding: 50px 30px; }
+
+.estudante{
+    background-image: linear-gradient(rgb(216, 216, 216), rgb(141, 136, 136));
+    color: rgb(0, 0, 0);   
+}
+.alunos-destaqus{
+    align-items: center;
+}
+
+.aluno-um {
+width: 25%;
+height: 150px;
+}
+.estudante-icone{
+    width: 15%;
+}
+.estudante-div {
+    text-align: center;
+}
+body{font-family:  Arial
+   , Helvetica, sans-serif;}
+    
+
+    .escola-titulo{
+    align-items: center;
+    padding: 50px 0; 
+  }
+  
+    .estudantes-todos {
+        display: grid;
+        grid-template-columns:  25% 25% 25% 25%;
+    }
+  
+.rodape 
+{
+background-color: black;
+color: bisque;
+}
