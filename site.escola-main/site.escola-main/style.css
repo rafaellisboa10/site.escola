@@ -62,6 +62,7 @@ padding: 50px 30px; }
 
 .aluno-um {
 width: 25%;
+height: 150px;
 }
 .estudante-icone{
     width: 15%;
@@ -80,6 +81,11 @@ body{font-family:  Arial
   
     .estudantes-todos {
         display: grid;
-        grid-template-columns:  28% 23% 28% 23%;
+        grid-template-columns:  25% 25% 25% 25%;
     }
   
+.rodape 
+{
+background-color: black;
+color: bisque;
+}
